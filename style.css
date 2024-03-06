@@ -28,4 +28,15 @@ body {
     width: 100%;
     font-size: 32px;
 }
+.titulo-principal span]{
+    color: var(--verde);
+}
+.botão{
+    font-family: "Chaka Petch", sans-serif;
+    background-color: var(--botao-inativo);
+color: var(--branco);
+display:flex;
+justify-content:center
 
+
+}
