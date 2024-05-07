@@ -36,8 +36,9 @@ body {
     color: var(--verde);
 }
 
+
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -55,27 +56,32 @@ body {
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
-.botão.ativo{
-    background-color: var(--botão-ativo);
-    border-bottom: 4px solid var(--verde);
-}
+
 .botoes {
     display: block;
 }
-.aba-textos{
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos{
     background-color: var(--texto-fundo);
-padding: 40px;
-border-radius: o o 40px 40px;
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
 .aba-conteudo.ativo{
-    display: block;
+    display:block;
 }
-.aba-conteudo {
-    diplay: nome;
+
+.aba-conteudo{
+    display: none;
 }
+
 .aba-conteudo-titulo-principal{
     font-size: 28px;
-text-align: center;
+    text-align: center;
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
@@ -83,10 +89,6 @@ text-align: center;
     text-transform: uppercase;
 }
 
-.contador{
-font-size:20xp; 
-text-align: center;
-}
 
 .contador{
     font-size: 20px;
@@ -111,6 +113,7 @@ text-align: center;
     margin: 0;
 
 }
+
 
 @media screen and (min-width: 768px) {
     .botoes {
